@@ -112,3 +112,35 @@ Ejecución mediante
 ### Ejecución
 
 <img src="./img/cfinal.png" height="500">
+
+
+# Actividad 22
+
+## Agregar JaCoCo a Gradle
+
+<img src="./img/d1.png" height="500">
+
+### Ejecución
+
+```
+$ ./gradlew test jacocoTestCoverageVerification
+```
+
+<img src="./img/d2.png" >
+
+```
+$ ./gradlew test jacocoTestReport
+```
+
+<img src="./img/d3.png" >
+
+## Agregando una etapa de cobertura de código
+
+<img src="./img/d4.png" >
+
+<img src="./img/d5.png" >
+
+## Publicación del informe de cobertura de código
+
+<img src="./img/d6.png" >
+
